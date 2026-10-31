@@ -1,0 +1,49 @@
+{
+  "generated_utc": "2026-09-06T16:50:22.157592+00:00",
+  "family_weights": {
+    "F1_interaction_geometry": 0.3,
+    "F2_pose_physics": 0.15,
+    "F3_cofolding": 0.2,
+    "F4_chemistry": 0.1,
+    "F5_similarity_provenance": 0.1,
+    "F6_actionability": 0.15
+  },
+  "inputs": {
+    "ex32": {
+      "path": "YONSEI_FINAL10_V2/11_SOURCEABLE/analogues/REAL_ANALOGUES_EX32.csv",
+      "rows": 160
+    },
+    "analogues": {
+      "path": "YONSEI_FINAL10_V2/11_SOURCEABLE/analogues/EX32_FINALIST_QUEUE_WITH_VENDOR.csv",
+      "rows": 80
+    },
+    "sourceability": {
+      "path": "YONSEI_FINAL10_V2/11_SOURCEABLE/analogues/FINALIST_VENDOR_CHECK.csv",
+      "rows": 80
+    },
+    "seeds": {
+      "path": "YONSEI_FINAL10_V2/11_SOURCEABLE/seeds/FINAL_DE_NOVO_SIMILARITY_SEEDS.csv",
+      "rows": 32
+    }
+  },
+  "gates": {
+    "start": 160,
+    "chemically_valid": 160,
+    "stereo_not_known_wrong": 160,
+    "no_catastrophic_clash": 160,
+    "valid_ex32_pose": 160,
+    "sourceable_or_make_on_demand": 86,
+    "no_severe_active_state_warning": 86
+  },
+  "panel_size": 20,
+  "unique_murcko_scaffolds": 20,
+  "by_pocket": {
+    "5NDD_orthosteric": 16,
+    "5NDZ_allosteric": 4
+  },
+  "by_stock_status": {
+    "IN_STOCK_VENDOR_LISTED": 20
+  },
+  "median_evidence_families": 4.0,
+  "publication_note": "One original machine-specific path replaced by its repository-relative equivalent; all scientific fields unchanged. Inputs beyond the published panels are obtained separately."
+}

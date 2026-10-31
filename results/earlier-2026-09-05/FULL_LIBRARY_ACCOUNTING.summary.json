@@ -1,0 +1,35 @@
+{
+  "generated_utc": "2026-09-05T11:18:33.859378+00:00",
+  "rows": 101,
+  "status_counts": {
+    "COMPUTED": 98,
+    "DISCREPANCY": 1,
+    "REPORTED_NOT_RECOMPUTABLE": 1,
+    "UNKNOWN": 1
+  },
+  "discrepancies": [
+    {
+      "section": "1_generation",
+      "metric": "scored_candidate_pool_unique_smiles",
+      "value": 17011,
+      "status": "DISCREPANCY",
+      "alternative_value": 17074,
+      "source": "02_DENOVO_CPU/SCORED_CANDIDATES.csv",
+      "alternative_source": "row count of same file",
+      "method": "nunique of smiles column"
+    }
+  ],
+  "unknowns": [
+    {
+      "section": "9_loss",
+      "metric": "results_lost_with_pw_n2b",
+      "value": "UNKNOWN",
+      "status": "UNKNOWN",
+      "alternative_value": "",
+      "source": "RECOVERED_WORKERS/PAR2_RECOVERY_COMPLETE.md",
+      "alternative_source": "",
+      "method": "pw-n2b and its boot disk were deleted before the export; no surviving record enumerates the shards it was assigned or completed after 14:45, so the number of docked-then-lost results cannot be separated from never-dispatched ones"
+    }
+  ],
+  "note": "Every COMPUTED value was recomputed from the primary artefact named in its source column. No value was copied from a previous report."
+}

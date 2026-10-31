@@ -1,0 +1,864 @@
+{
+  "generated_utc": "2026-09-05T11:17:46.042867+00:00",
+  "rdkit_version": "2026.03.6",
+  "designs_audited": 15000,
+  "designs_by_batch": {
+    "batch2": 12000,
+    "batch1": 3000
+  },
+  "input_parse_failures": 0,
+  "designs_declaring_stereo": 11090,
+  "designs_with_unassigned_stereocentre": 4901,
+  "stereo_status_counts": {
+    "PRESERVED": 8556,
+    "NEVER_PRESENT": 3910,
+    "LOST": 2534
+  },
+  "stereo_status_counts_prepared_only": {
+    "PRESERVED": 8410,
+    "NEVER_PRESENT": 3904,
+    "LOST": 2511
+  },
+  "stereocentres_lost_total": 3042,
+  "stereo_double_bonds_lost_total": 36,
+  "designs_losing_only_double_bond_stereo": 30,
+  "designs_with_constitution_changed": 1199,
+  "designs_with_new_unassigned_stereocentre": 2241,
+  "library_fate_counts": {
+    "PREPARED_AND_DOCKED": 14825,
+    "PREPARATION_FAILED": 151,
+    "COLLAPSED_AS_DUPLICATE_INCHIKEY": 24
+  },
+  "replication_check": {
+    "rows_checked": 14825,
+    "inchikey_reproduced": 14825,
+    "smiles_prepared_reproduced": 14825,
+    "note": "recomputed standardisation compared against the shipped V2_LIGAND_TABLE values"
+  },
+  "collapse_groups": 24,
+  "collapse_group_classes": {
+    "SPECIFIED_VS_UNSPECIFIED": 17,
+    "EPIMERIC_PAIR": 6,
+    "TAUTOMER_MERGE": 1
+  },
+  "collapsed_designs_dropped": 24,
+  "collapsed_designs_dropped_by_batch": {
+    "batch2": 17,
+    "batch1": 7
+  },
+  "docked_duplicate_groups": 1,
+  "docked_duplicate_groups_spanning_batches": 1,
+  "docked_duplicate_molecules": 2,
+  "docked_duplicate_detail": [
+    {
+      "prepared_inchikey": "YUIAMUUFZPWUAJ-UHFFFAOYSA-N",
+      "cand_ids": [
+        "DL03110",
+        "DN00314"
+      ],
+      "batches": [
+        "batch1",
+        "batch2"
+      ],
+      "spans_batches": true,
+      "classification": "EPIMERIC_PAIR",
+      "input_stereo_inchikeys": [
+        "YUIAMUUFZPWUAJ-JTQLQIEISA-N",
+        "YUIAMUUFZPWUAJ-SNVBAGLBSA-N"
+      ],
+      "input_smiles": [
+        "COc1c(O)cc([C@@H](C)C2CCCCC2)cc1O",
+        "COc1c(O)cc([C@H](C)C2CCCCC2)cc1O"
+      ]
+    }
+  ],
+  "affected_designs_total": 6692,
+  "redock_rows_written": 646,
+  "redock_scope": "ranked",
+  "redock_severity_counts": {
+    "AMBIGUOUS_STEREOCHEMISTRY": 439,
+    "WRONG_STEREOISOMER_DOCKED": 207
+  },
+  "redock_reason_counts": {
+    "UNASSIGNED_STEREOCENTRE_IN_DESIGN": 439,
+    "NEW_UNASSIGNED_STEREOCENTRE_FROM_STANDARDISATION;STEREO_LOST_IN_PREPARATION": 150,
+    "NEW_UNASSIGNED_STEREOCENTRE_FROM_STANDARDISATION;STEREO_LOST_IN_PREPARATION;UNASSIGNED_STEREOCENTRE_IN_DESIGN": 33,
+    "STEREO_LOST_IN_PREPARATION": 13,
+    "STEREO_LOST_IN_PREPARATION;UNASSIGNED_STEREOCENTRE_IN_DESIGN": 8,
+    "NEW_UNASSIGNED_STEREOCENTRE_FROM_STANDARDISATION;SAME_PREPARED_STRUCTURE_DOCKED_UNDER_ANOTHER_CAND_ID;STEREO_LOST_IN_PREPARATION": 1,
+    "NEW_UNASSIGNED_STEREOCENTRE_FROM_STANDARDISATION;STANDS_IN_FOR_COLLAPSED_DESIGN;STEREO_LOST_IN_PREPARATION": 1,
+    "NEW_UNASSIGNED_STEREOCENTRE_FROM_STANDARDISATION;UNASSIGNED_STEREOCENTRE_IN_DESIGN": 1
+  },
+  "finalists_considered": 1492,
+  "finalists_affected": 646,
+  "finalists_affected_by_ranking_source": {
+    "DENOVO_EX8_CONSENSUS_TOP1000.csv": 500,
+    "CONSENSUS_TOP500_5NDZ_allosteric.csv": 146
+  },
+  "primary_ranking": "DENOVO_EX8_CONSENSUS_TOP1000.csv",
+  "affected_in_top_n_of_primary_ranking": {
+    "10": 7,
+    "50": 27,
+    "100": 48,
+    "500": 254,
+    "1000": 500
+  },
+  "ranking_used": [
+    "07_CONSENSUS/DENOVO_EX8_CONSENSUS_TOP1000.csv",
+    "07_CONSENSUS/CONSENSUS_TOP500_5NDD_orthosteric.csv",
+    "07_CONSENSUS/CONSENSUS_TOP500_5NDZ_allosteric.csv",
+    "08_CLUSTERS/SIMILARITY_SEARCH_SEEDS.csv"
+  ],
+  "ranking_top_n": 1000,
+  "stereo_lost_at_stage_counts": {
+    "tautomer_canonicalize": 2534
+  },
+  "groups": [
+    {
+      "collapse_group": "batch1:CVIKOXLEKPGJET-UHFFFAOYSA-N",
+      "batch": "batch1",
+      "prepared_inchikey": "CVIKOXLEKPGJET-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DN00280",
+        "DN00281"
+      ],
+      "n_survivors": 1,
+      "survivor": "DN00280",
+      "dropped": [
+        "DN00281"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "CVIKOXLEKPGJET-NSHDSACASA-N",
+        "CVIKOXLEKPGJET-UHFFFAOYSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "CVIKOXLEKPGJET-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CCCc1cc(O)c2c(=O)c(-c3ncc[nH]3)c([C@@H](C)CC)oc2c1",
+        "CCCc1cc(O)c2c(=O)c(-c3ncc[nH]3)c(C(C)CC)oc2c1"
+      ],
+      "stereo_ids": [
+        "CCCc1cc(O)c2c(=O)c(-c3ncc[nH]3)c(C(C)CC)oc2c1",
+        "CCCc1cc(O)c2c(=O)c(-c3ncc[nH]3)c([C@@H](C)CC)oc2c1"
+      ]
+    },
+    {
+      "collapse_group": "batch1:PQGBPUQGFSOUOK-NFJWQWPMSA-M",
+      "batch": "batch1",
+      "prepared_inchikey": "PQGBPUQGFSOUOK-NFJWQWPMSA-M",
+      "n_members": 2,
+      "members": [
+        "DN00562",
+        "DN00563"
+      ],
+      "n_survivors": 1,
+      "survivor": "DN00562",
+      "dropped": [
+        "DN00563"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "PQGBPUQGFSOUOK-GHMZBOCLSA-N",
+        "PQGBPUQGFSOUOK-NFJWQWPMSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "PQGBPUQGFSOUOK-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C=C(CC[C@@H](C)c1cc2c(cc1Br)OCO2)[C@@H](C)C(=O)O",
+        "C=C(CC[C@@H](C)c1cc2c(cc1Br)OCO2)C(C)C(=O)O"
+      ],
+      "stereo_ids": [
+        "C=C(CC[C@@H](C)c1cc2c(cc1Br)OCO2)C(C)C(=O)O",
+        "C=C(CC[C@@H](C)c1cc2c(cc1Br)OCO2)[C@@H](C)C(=O)O"
+      ]
+    },
+    {
+      "collapse_group": "batch1:SSSLYMLBNGFCNH-UHFFFAOYSA-N",
+      "batch": "batch1",
+      "prepared_inchikey": "SSSLYMLBNGFCNH-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DN01351",
+        "DN01352"
+      ],
+      "n_survivors": 1,
+      "survivor": "DN01351",
+      "dropped": [
+        "DN01352"
+      ],
+      "classification": "EPIMERIC_PAIR",
+      "input_stereo_inchikeys": [
+        "SSSLYMLBNGFCNH-IAPIXIRKSA-N",
+        "SSSLYMLBNGFCNH-XLLULAGJSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "SSSLYMLBNGFCNH-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "COc1cc([C@@H](C)C2CCC(=O)O2)nc2ccccc12",
+        "COc1cc([C@H](C)C2CCC(=O)O2)nc2ccccc12"
+      ],
+      "stereo_ids": [
+        "COc1cc([C@@H](C)C2CCC(=O)O2)nc2ccccc12",
+        "COc1cc([C@H](C)C2CCC(=O)O2)nc2ccccc12"
+      ]
+    },
+    {
+      "collapse_group": "batch1:HTODAKOUBAWMGM-UHFFFAOYSA-N",
+      "batch": "batch1",
+      "prepared_inchikey": "HTODAKOUBAWMGM-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DN01866",
+        "DN01867"
+      ],
+      "n_survivors": 1,
+      "survivor": "DN01866",
+      "dropped": [
+        "DN01867"
+      ],
+      "classification": "EPIMERIC_PAIR",
+      "input_stereo_inchikeys": [
+        "HTODAKOUBAWMGM-INHVJJQHSA-N",
+        "HTODAKOUBAWMGM-MYHCZTBNSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "HTODAKOUBAWMGM-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "COc1ccc2c(c1)[nH]c1c([C@@H](C)C3CCC(=O)O3)nccc12",
+        "COc1ccc2c(c1)[nH]c1c([C@H](C)C3CCC(=O)O3)nccc12"
+      ],
+      "stereo_ids": [
+        "COc1ccc2c(c1)[nH]c1c([C@@H](C)C3CCC(=O)O3)nccc12",
+        "COc1ccc2c(c1)[nH]c1c([C@H](C)C3CCC(=O)O3)nccc12"
+      ]
+    },
+    {
+      "collapse_group": "batch1:KPGBZKXVLJLNGJ-UHFFFAOYSA-N",
+      "batch": "batch1",
+      "prepared_inchikey": "KPGBZKXVLJLNGJ-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DN01969",
+        "DN01970"
+      ],
+      "n_survivors": 1,
+      "survivor": "DN01969",
+      "dropped": [
+        "DN01970"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "KPGBZKXVLJLNGJ-CYBMUJFWSA-N",
+        "KPGBZKXVLJLNGJ-UHFFFAOYSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "KPGBZKXVLJLNGJ-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CC1=C(C)C(=O)OC(C(=O)Nc2ccc(C#N)cc2)C1",
+        "CC1=C(C)C(=O)O[C@@H](C(=O)Nc2ccc(C#N)cc2)C1"
+      ],
+      "stereo_ids": [
+        "CC1=C(C)C(=O)OC(C(=O)Nc2ccc(C#N)cc2)C1",
+        "CC1=C(C)C(=O)O[C@@H](C(=O)Nc2ccc(C#N)cc2)C1"
+      ]
+    },
+    {
+      "collapse_group": "batch1:QAUZCUPGUHZFJG-JHJMLUEUSA-M",
+      "batch": "batch1",
+      "prepared_inchikey": "QAUZCUPGUHZFJG-JHJMLUEUSA-M",
+      "n_members": 2,
+      "members": [
+        "DN02159",
+        "DN02160"
+      ],
+      "n_survivors": 1,
+      "survivor": "DN02159",
+      "dropped": [
+        "DN02160"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "QAUZCUPGUHZFJG-JHJMLUEUSA-N",
+        "QAUZCUPGUHZFJG-VXGBXAGGSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "QAUZCUPGUHZFJG-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C=C(CC[C@@H](C)c1coc(-c2ncc[nH]2)c1)[C@@H](C)C(=O)O",
+        "C=C(CC[C@@H](C)c1coc(-c2ncc[nH]2)c1)C(C)C(=O)O"
+      ],
+      "stereo_ids": [
+        "C=C(CC[C@@H](C)c1coc(-c2ncc[nH]2)c1)C(C)C(=O)O",
+        "C=C(CC[C@@H](C)c1coc(-c2ncc[nH]2)c1)[C@@H](C)C(=O)O"
+      ]
+    },
+    {
+      "collapse_group": "batch1:PPAMGXMZRGRBHQ-UHFFFAOYSA-N",
+      "batch": "batch1",
+      "prepared_inchikey": "PPAMGXMZRGRBHQ-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DN02599",
+        "DN02600"
+      ],
+      "n_survivors": 1,
+      "survivor": "DN02599",
+      "dropped": [
+        "DN02600"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "PPAMGXMZRGRBHQ-LBPRGKRZSA-N",
+        "PPAMGXMZRGRBHQ-UHFFFAOYSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "PPAMGXMZRGRBHQ-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CC[C@H](C)c1cc2occ(C3CCCCC3)c(=O)c2c(O)c1OC",
+        "CCC(C)c1cc2occ(C3CCCCC3)c(=O)c2c(O)c1OC"
+      ],
+      "stereo_ids": [
+        "CCC(C)c1cc2occ(C3CCCCC3)c(=O)c2c(O)c1OC",
+        "CC[C@H](C)c1cc2occ(C3CCCCC3)c(=O)c2c(O)c1OC"
+      ]
+    },
+    {
+      "collapse_group": "batch2:NPRYXQZEZGZJTB-UHFFFAOYSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "NPRYXQZEZGZJTB-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DL00745",
+        "DL00746"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL00745",
+      "dropped": [
+        "DL00746"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "NPRYXQZEZGZJTB-LBPRGKRZSA-N",
+        "NPRYXQZEZGZJTB-UHFFFAOYSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "NPRYXQZEZGZJTB-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CC[C@H](C)c1cc(Nc2ccc(C#N)cc2)ccc1O",
+        "CCC(C)c1cc(Nc2ccc(C#N)cc2)ccc1O"
+      ],
+      "stereo_ids": [
+        "CCC(C)c1cc(Nc2ccc(C#N)cc2)ccc1O",
+        "CC[C@H](C)c1cc(Nc2ccc(C#N)cc2)ccc1O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:DZKSHPKAWHGLSQ-UHFFFAOYSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "DZKSHPKAWHGLSQ-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DL03824",
+        "DL03825"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL03824",
+      "dropped": [
+        "DL03825"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "RSUMYCMXBIMMKT-JTQLQIEISA-N",
+        "RSUMYCMXBIMMKT-UHFFFAOYSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "RSUMYCMXBIMMKT-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CCCc1cc(C2=C(O)C(=C[C@@H](C)CC)OC2=O)c(O)cc1O",
+        "CCCc1cc(C2=C(O)C(=CC(C)CC)OC2=O)c(O)cc1O"
+      ],
+      "stereo_ids": [
+        "CCCc1cc(C2=C(O)C(=CC(C)CC)OC2=O)c(O)cc1O",
+        "CCCc1cc(C2=C(O)C(=C[C@@H](C)CC)OC2=O)c(O)cc1O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:KRISGGGYSBMGMX-HYJKCXCCSA-M",
+      "batch": "batch2",
+      "prepared_inchikey": "KRISGGGYSBMGMX-HYJKCXCCSA-M",
+      "n_members": 2,
+      "members": [
+        "DL05628",
+        "DL05629"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL05628",
+      "dropped": [
+        "DL05629"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "KRISGGGYSBMGMX-HYJKCXCCSA-N",
+        "KRISGGGYSBMGMX-VQTJZOPESA-N"
+      ],
+      "input_flat_inchikeys": [
+        "KRISGGGYSBMGMX-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C=C(CC[C@@H](C)[C@]1(C)C(=O)CC[C@@]23C[C@@H](CC[C@H]21)[C@](C)(O)C3)[C@@H](C)C(=O)O",
+        "C=C(CC[C@@H](C)[C@]1(C)C(=O)CC[C@@]23C[C@@H](CC[C@H]21)[C@](C)(O)C3)C(C)C(=O)O"
+      ],
+      "stereo_ids": [
+        "C=C(CC[C@@H](C)[C@]1(C)C(=O)CC[C@@]23C[C@@H](CC[C@H]21)[C@](C)(O)C3)C(C)C(=O)O",
+        "C=C(CC[C@@H](C)[C@]1(C)C(=O)CC[C@@]23C[C@@H](CC[C@H]21)[C@](C)(O)C3)[C@@H](C)C(=O)O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:ORMWWPYXXDYGTN-UHFFFAOYSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "ORMWWPYXXDYGTN-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DL06689",
+        "DL06690"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL06689",
+      "dropped": [
+        "DL06690"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "HGNHJJOINYGWDJ-NSHDSACASA-N",
+        "HGNHJJOINYGWDJ-UHFFFAOYSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "HGNHJJOINYGWDJ-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CC[C@H](C)C=C1C=C(C(=O)C2CCCCC2)C(=O)N1",
+        "CCC(C)C=C1C=C(C(=O)C2CCCCC2)C(=O)N1"
+      ],
+      "stereo_ids": [
+        "CCC(C)C=C1C=C(C(=O)C2CCCCC2)C(=O)N1",
+        "CC[C@H](C)C=C1C=C(C(=O)C2CCCCC2)C(=O)N1"
+      ]
+    },
+    {
+      "collapse_group": "batch2:AAIICTKVPVMNDG-UHFFFAOYSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "AAIICTKVPVMNDG-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DL06793",
+        "DL06794"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL06793",
+      "dropped": [
+        "DL06794"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "IMEOYRWNXJRQIM-LLTODGECSA-N",
+        "IMEOYRWNXJRQIM-UHFFFAOYSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "IMEOYRWNXJRQIM-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CC[C@H](C)C=C1C(=O)C=CC1(O)c1ncc[nH]1",
+        "CCC(C)C=C1C(=O)C=CC1(O)c1ncc[nH]1"
+      ],
+      "stereo_ids": [
+        "CCC(C)C=C1C(=O)C=CC1(O)c1ncc[nH]1",
+        "CC[C@H](C)C=C1C(=O)C=CC1(O)c1ncc[nH]1"
+      ]
+    },
+    {
+      "collapse_group": "batch2:JYSOWCBAJOSQJV-UHFFFAOYSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "JYSOWCBAJOSQJV-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DL06912",
+        "DL06913"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL06912",
+      "dropped": [
+        "DL06913"
+      ],
+      "classification": "EPIMERIC_PAIR",
+      "input_stereo_inchikeys": [
+        "JYSOWCBAJOSQJV-KBPLZSHQSA-N",
+        "JYSOWCBAJOSQJV-SZSXPDSJSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "JYSOWCBAJOSQJV-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "COc1cc(O)c2c(=O)cc([C@@H](C)C3CCC(=O)O3)oc2c1",
+        "COc1cc(O)c2c(=O)cc([C@H](C)C3CCC(=O)O3)oc2c1"
+      ],
+      "stereo_ids": [
+        "COc1cc(O)c2c(=O)cc([C@@H](C)C3CCC(=O)O3)oc2c1",
+        "COc1cc(O)c2c(=O)cc([C@H](C)C3CCC(=O)O3)oc2c1"
+      ]
+    },
+    {
+      "collapse_group": "batch2:BQWQXHADHDYHNX-PZORYLMUSA-M",
+      "batch": "batch2",
+      "prepared_inchikey": "BQWQXHADHDYHNX-PZORYLMUSA-M",
+      "n_members": 2,
+      "members": [
+        "DL07119",
+        "DL07120"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL07119",
+      "dropped": [
+        "DL07120"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "BQWQXHADHDYHNX-CHWSQXEVSA-N",
+        "BQWQXHADHDYHNX-PZORYLMUSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "BQWQXHADHDYHNX-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C=C(CC[C@@H](C)C1CCCCC1)[C@@H](C)C(=O)O",
+        "C=C(CC[C@@H](C)C1CCCCC1)C(C)C(=O)O"
+      ],
+      "stereo_ids": [
+        "C=C(CC[C@@H](C)C1CCCCC1)C(C)C(=O)O",
+        "C=C(CC[C@@H](C)C1CCCCC1)[C@@H](C)C(=O)O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:LOAPWOCEUNULPM-MYHQONGJSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "LOAPWOCEUNULPM-MYHQONGJSA-N",
+      "n_members": 2,
+      "members": [
+        "DL09180",
+        "DL09181"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL09180",
+      "dropped": [
+        "DL09181"
+      ],
+      "classification": "EPIMERIC_PAIR",
+      "input_stereo_inchikeys": [
+        "LOAPWOCEUNULPM-FVRREKSHSA-N",
+        "LOAPWOCEUNULPM-UHDFLUJNSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "LOAPWOCEUNULPM-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C[C@H](c1occ2c1C(=O)c1c(O)cccc1[C@@H]2O)C1CCC(=O)O1",
+        "C[C@@H](c1occ2c1C(=O)c1c(O)cccc1[C@@H]2O)C1CCC(=O)O1"
+      ],
+      "stereo_ids": [
+        "C[C@@H](c1occ2c1C(=O)c1c(O)cccc1[C@@H]2O)C1CCC(=O)O1",
+        "C[C@H](c1occ2c1C(=O)c1c(O)cccc1[C@@H]2O)C1CCC(=O)O1"
+      ]
+    },
+    {
+      "collapse_group": "batch2:UNSPTIIMFQQYTJ-PZORYLMUSA-M",
+      "batch": "batch2",
+      "prepared_inchikey": "UNSPTIIMFQQYTJ-PZORYLMUSA-M",
+      "n_members": 2,
+      "members": [
+        "DL09195",
+        "DL09196"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL09195",
+      "dropped": [
+        "DL09196"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "UNSPTIIMFQQYTJ-CHWSQXEVSA-N",
+        "UNSPTIIMFQQYTJ-PZORYLMUSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "UNSPTIIMFQQYTJ-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C=C(CC[C@@H](C)c1coc(CCC)c1)[C@@H](C)C(=O)O",
+        "C=C(CC[C@@H](C)c1coc(CCC)c1)C(C)C(=O)O"
+      ],
+      "stereo_ids": [
+        "C=C(CC[C@@H](C)c1coc(CCC)c1)C(C)C(=O)O",
+        "C=C(CC[C@@H](C)c1coc(CCC)c1)[C@@H](C)C(=O)O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:HFABUMLFIALQFC-GKOGFXNCSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "HFABUMLFIALQFC-GKOGFXNCSA-N",
+      "n_members": 2,
+      "members": [
+        "DL09345",
+        "DL11010"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL09345",
+      "dropped": [
+        "DL11010"
+      ],
+      "classification": "TAUTOMER_MERGE",
+      "input_stereo_inchikeys": [
+        "HFABUMLFIALQFC-GKOGFXNCSA-N",
+        "IDMDXDLSOXHCPH-ACYVDPJOSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "HFABUMLFIALQFC-UHFFFAOYSA-N",
+        "IDMDXDLSOXHCPH-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CC1=C(C=C2C(=O)C=CC2(O)c2ncc[nH]2)C(C)(C)C[C@H](O)C1",
+        "CC1=C[C@@H](O)CC(C)(C)[C@H]1C=C1C(=O)C=CC1(O)c1ncc[nH]1"
+      ],
+      "stereo_ids": [
+        "CC1=C(C=C2C(=O)C=CC2(O)c2ncc[nH]2)C(C)(C)C[C@H](O)C1",
+        "CC1=C[C@@H](O)CC(C)(C)[C@H]1C=C1C(=O)C=CC1(O)c1ncc[nH]1"
+      ]
+    },
+    {
+      "collapse_group": "batch2:YJWCHKMMLBVFNA-OOMXXCDRSA-M",
+      "batch": "batch2",
+      "prepared_inchikey": "YJWCHKMMLBVFNA-OOMXXCDRSA-M",
+      "n_members": 2,
+      "members": [
+        "DL09789",
+        "DL09790"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL09789",
+      "dropped": [
+        "DL09790"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "YJWCHKMMLBVFNA-DTZHPZLNSA-N",
+        "YJWCHKMMLBVFNA-OOMXXCDRSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "YJWCHKMMLBVFNA-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C=C(CC[C@@H](C)c1ccc(O[C@@H]2OC[C@@H](O)[C@H](O)[C@H]2O)cc1)[C@@H](C)C(=O)O",
+        "C=C(CC[C@@H](C)c1ccc(O[C@@H]2OC[C@@H](O)[C@H](O)[C@H]2O)cc1)C(C)C(=O)O"
+      ],
+      "stereo_ids": [
+        "C=C(CC[C@@H](C)c1ccc(O[C@@H]2OC[C@@H](O)[C@H](O)[C@H]2O)cc1)C(C)C(=O)O",
+        "C=C(CC[C@@H](C)c1ccc(O[C@@H]2OC[C@@H](O)[C@H](O)[C@H]2O)cc1)[C@@H](C)C(=O)O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:SIWFJZGREPVMJH-UHFFFAOYSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "SIWFJZGREPVMJH-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DL10372",
+        "DL10373"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL10372",
+      "dropped": [
+        "DL10373"
+      ],
+      "classification": "EPIMERIC_PAIR",
+      "input_stereo_inchikeys": [
+        "SIWFJZGREPVMJH-DKSCNQEISA-N",
+        "SIWFJZGREPVMJH-RGENBBCFSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "SIWFJZGREPVMJH-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C[C@H](c1cc(=O)c2c(O)cc(O)cc2o1)C1CCC(=O)O1",
+        "C[C@@H](c1cc(=O)c2c(O)cc(O)cc2o1)C1CCC(=O)O1"
+      ],
+      "stereo_ids": [
+        "C[C@@H](c1cc(=O)c2c(O)cc(O)cc2o1)C1CCC(=O)O1",
+        "C[C@H](c1cc(=O)c2c(O)cc(O)cc2o1)C1CCC(=O)O1"
+      ]
+    },
+    {
+      "collapse_group": "batch2:WVEMYGZYGLSWQM-UHFFFAOYSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "WVEMYGZYGLSWQM-UHFFFAOYSA-N",
+      "n_members": 2,
+      "members": [
+        "DL10523",
+        "DL10525"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL10523",
+      "dropped": [
+        "DL10525"
+      ],
+      "classification": "EPIMERIC_PAIR",
+      "input_stereo_inchikeys": [
+        "WVEMYGZYGLSWQM-DKSCNQEISA-N",
+        "WVEMYGZYGLSWQM-RGENBBCFSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "WVEMYGZYGLSWQM-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "COc1c(O)cc([C@@H](C)C2CCC(=O)O2)cc1O",
+        "COc1c(O)cc([C@H](C)C2CCC(=O)O2)cc1O"
+      ],
+      "stereo_ids": [
+        "COc1c(O)cc([C@@H](C)C2CCC(=O)O2)cc1O",
+        "COc1c(O)cc([C@H](C)C2CCC(=O)O2)cc1O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:LTWWVOORAMLVCO-WXCGIBOISA-M",
+      "batch": "batch2",
+      "prepared_inchikey": "LTWWVOORAMLVCO-WXCGIBOISA-M",
+      "n_members": 2,
+      "members": [
+        "DL11134",
+        "DL11135"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL11134",
+      "dropped": [
+        "DL11135"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "LTWWVOORAMLVCO-HDKMNVHJSA-N",
+        "LTWWVOORAMLVCO-WXCGIBOISA-N"
+      ],
+      "input_flat_inchikeys": [
+        "LTWWVOORAMLVCO-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C=C(CC[C@@H](C)[C@H]1C[C@@H](OC)[C@H](c2ncc[nH]2)[C@@H](C)O1)[C@@H](C)C(=O)O",
+        "C=C(CC[C@@H](C)[C@H]1C[C@@H](OC)[C@H](c2ncc[nH]2)[C@@H](C)O1)C(C)C(=O)O"
+      ],
+      "stereo_ids": [
+        "C=C(CC[C@@H](C)[C@H]1C[C@@H](OC)[C@H](c2ncc[nH]2)[C@@H](C)O1)C(C)C(=O)O",
+        "C=C(CC[C@@H](C)[C@H]1C[C@@H](OC)[C@H](c2ncc[nH]2)[C@@H](C)O1)[C@@H](C)C(=O)O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:KVLQWLYLCTUCDF-SHIHICALSA-M",
+      "batch": "batch2",
+      "prepared_inchikey": "KVLQWLYLCTUCDF-SHIHICALSA-M",
+      "n_members": 2,
+      "members": [
+        "DL12177",
+        "DL12178"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL12177",
+      "dropped": [
+        "DL12178"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "KVLQWLYLCTUCDF-ILDWOOSOSA-N",
+        "KVLQWLYLCTUCDF-SHIHICALSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "KVLQWLYLCTUCDF-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "C=C(CC[C@@H](C)C1C(O)COC1CCC)[C@@H](C)C(=O)O",
+        "C=C(CC[C@@H](C)C1C(O)COC1CCC)C(C)C(=O)O"
+      ],
+      "stereo_ids": [
+        "C=C(CC[C@@H](C)C1C(O)COC1CCC)C(C)C(=O)O",
+        "C=C(CC[C@@H](C)C1C(O)COC1CCC)[C@@H](C)C(=O)O"
+      ]
+    },
+    {
+      "collapse_group": "batch2:LPWWNNQRQOODFF-KJLTZDGUSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "LPWWNNQRQOODFF-KJLTZDGUSA-N",
+      "n_members": 2,
+      "members": [
+        "DL13807",
+        "DL13808"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL13807",
+      "dropped": [
+        "DL13808"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "VBGWQHFBQHCUSJ-MEISLFRWSA-N",
+        "VBGWQHFBQHCUSJ-XIQRZAHHSA-N"
+      ],
+      "input_flat_inchikeys": [
+        "VBGWQHFBQHCUSJ-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CC[C@H](C)C=CC(=O)CC(C)(O)C1C(O)C(O)C(C)OC1[C@H](C)c1ccc(Cl)cc1",
+        "CCC(C)C=CC(=O)CC(C)(O)C1C(O)C(O)C(C)OC1[C@H](C)c1ccc(Cl)cc1"
+      ],
+      "stereo_ids": [
+        "CCC(C)C=CC(=O)CC(C)(O)C1C(O)C(O)C(C)OC1[C@H](C)c1ccc(Cl)cc1",
+        "CC[C@H](C)C=CC(=O)CC(C)(O)C1C(O)C(O)C(C)OC1[C@H](C)c1ccc(Cl)cc1"
+      ]
+    },
+    {
+      "collapse_group": "batch2:FZBFDEMPVJRTTE-FPDCCHCHSA-N",
+      "batch": "batch2",
+      "prepared_inchikey": "FZBFDEMPVJRTTE-FPDCCHCHSA-N",
+      "n_members": 2,
+      "members": [
+        "DL14196",
+        "DL14197"
+      ],
+      "n_survivors": 1,
+      "survivor": "DL14196",
+      "dropped": [
+        "DL14197"
+      ],
+      "classification": "SPECIFIED_VS_UNSPECIFIED",
+      "input_stereo_inchikeys": [
+        "ASXRICSISORXFW-FPDCCHCHSA-N",
+        "ASXRICSISORXFW-ODWRFZDESA-N"
+      ],
+      "input_flat_inchikeys": [
+        "ASXRICSISORXFW-UHFFFAOYSA-N"
+      ],
+      "input_smiles": [
+        "CCCC1CC(C=C[C@@H](C)CC)=CC(=O)CC1O[C@@H]1OC[C@@H](O)[C@H](O)[C@H]1O",
+        "CCCC1CC(C=CC(C)CC)=CC(=O)CC1O[C@@H]1OC[C@@H](O)[C@H](O)[C@H]1O"
+      ],
+      "stereo_ids": [
+        "CCCC1CC(C=CC(C)CC)=CC(=O)CC1O[C@@H]1OC[C@@H](O)[C@H](O)[C@H]1O",
+        "CCCC1CC(C=C[C@@H](C)CC)=CC(=O)CC1O[C@@H]1OC[C@@H](O)[C@H](O)[C@H]1O"
+      ]
+    }
+  ],
+  "note": "Stereo verdicts describe what preparation did to the declared structure. They are not a claim about which stereoisomer binds."
+}

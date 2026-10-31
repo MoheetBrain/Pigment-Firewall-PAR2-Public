@@ -1,0 +1,51 @@
+{
+  "generated_utc": "2026-09-05T21:45:25.800235+00:00",
+  "rows_considered": 21149,
+  "gates": {
+    "parseable": 21149,
+    "has_non_clashing_pose": 17431,
+    "real_negative_affinity": 17312,
+    "stereo_not_known_wrong": 17084
+  },
+  "panel_size": 20,
+  "unique_murcko_scaffolds": 20,
+  "unique_clusters": 19,
+  "interaction_archetypes": 6,
+  "archetype_counts": {
+    "crystal_contact_reproducer": 5,
+    "dual_anchor": 5,
+    "high_sp3_wedge": 4,
+    "reference_adjacent": 3,
+    "allosteric_hedge": 2,
+    "general_binder": 1
+  },
+  "by_pocket": {
+    "5NDD_orthosteric": 17,
+    "5NDZ_allosteric": 3
+  },
+  "by_evidence_level": {
+    "EX32": 15,
+    "EX8": 5
+  },
+  "by_source_lane": {
+    "DE_NOVO_EX32_REFINED": 15,
+    "NATURAL_PRODUCT_OR_V1_HIT": 3,
+    "REAL_ANALOGUE_PUBCHEM": 1,
+    "APPROVED_REPURPOSING": 1
+  },
+  "stereo_flags": {
+    "OK": 14,
+    "AMBIGUOUS": 6
+  },
+  "requiring_synthesis": 15,
+  "real_registered_compounds": 5,
+  "approved_or_clinical": 1,
+  "ideal_top5": [
+    "DL13973",
+    "DL13271",
+    "DL13943",
+    "DL11368",
+    "DL11051"
+  ],
+  "caveat": "Computationally prioritised PAR2 candidates, not demonstrated antagonists. Static docking cannot separate an antagonist from a biased agonist; the decisive counter-screen is G12/13 -> RhoA."
+}

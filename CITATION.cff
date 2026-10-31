@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this research and the precise release commit when reusing it."
+type: software
+title: "PAR2: Computational Candidate Discovery and Sourceability Audit"
+authors:
+  - name: MoheetBrain
+    website: https://github.com/MoheetBrain
+repository-code: https://github.com/MoheetBrain/Pigment-Firewall-PAR2-Public
+url: https://github.com/MoheetBrain/Pigment-Firewall-PAR2-Public
+license:
+  - MIT
+  - CC-BY-4.0
+date-released: '2026-10-31'
+keywords:
+  - computational research
+  - reproducibility

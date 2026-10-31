@@ -1,0 +1,10 @@
+{
+  "original_rows": 20,
+  "reconstructed_rows": 20,
+  "same_rank_order": true,
+  "same_columns": true,
+  "substantive_differences": [],
+  "serialization_rounding_differences": 20,
+  "numeric_comparison_tolerance": 1e-12,
+  "original_csv_unchanged": true
+}

@@ -1,0 +1,365 @@
+{
+  "publication_date": "2026-10-31",
+  "files": [
+    {
+      "path": ".github/CODEOWNERS",
+      "bytes": 15,
+      "sha256": "ae1f6695d0886629c7a0c2305f23cfb106323a9671f83b442f571520b4797a53"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 67,
+      "sha256": "0be4e881fae5e93fad5c199ef381f908cf81a19f46b43727e5f3ec6111989aad"
+    },
+    {
+      "path": "CITATION.cff",
+      "bytes": 525,
+      "sha256": "4b35a0ae499ed7105a3a7e7e458612eea36ff0bf7e0f15954352cec3069da0c5"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 557,
+      "sha256": "1d00aadcecfec711a5712a716e34613911ebd531bfce851f6a82a9b01f0df7ca"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "bytes": 2543,
+      "sha256": "3b8ed481236a666438ec4bf43292dd28e63cc1ae51f76c27d7c4e5590ef7d3e0"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1068,
+      "sha256": "962e0747acf50c881f697117c85cc4cfd2dcc358cc07c28c0e4f70e66d1b6ed6"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 760,
+      "sha256": "05dce4a121ffc665bf9fbdd8d5d8b50d71a8a50765cac3f32e60f302ffaa8348"
+    },
+    {
+      "path": "PROVENANCE.json",
+      "bytes": 622,
+      "sha256": "5b0f1cb1d52ba20b0cc7fcdaac733ece017afeb526fcd1f2cc918c86ba228ef9"
+    },
+    {
+      "path": "RDKIT-LICENSE.txt",
+      "bytes": 1580,
+      "sha256": "daeb8d194502cbcf34c05c39541a0d02be65bc9bada5b891c1974cd24e9fca30"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8609,
+      "sha256": "3f86de572966848183f57e55534e6a48550aa67e673fd61ae2daf118a1fc24f9"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 314,
+      "sha256": "6da0c3deb78471d28372a928f9437653925bec89dd8fb76f16ffd597abdca71e"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 802,
+      "sha256": "6d5841e80ab8cfe39e99b0032b67b60f5b3213e833ed99d570f9974af4098ca6"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/11_SOURCEABLE/analogues/EX32_FINALIST_QUEUE_WITH_VENDOR.csv",
+      "bytes": 27662,
+      "sha256": "289082362851b3793002a237d01f7ea2b14c5891e6f2033be0d4cc36db30648c"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/11_SOURCEABLE/analogues/FINALIST_VENDOR_CHECK.csv",
+      "bytes": 16900,
+      "sha256": "8198e74f00ef886680d1c1914f416315aa98f1547e0c99fd82977be6009b7275"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/11_SOURCEABLE/analogues/REAL_ANALOGUES_EX32.csv",
+      "bytes": 155365,
+      "sha256": "9f010aa317ac3fd9cc533aac400a3d3b64aaf5e543d13eccc43f18cfbefc52f3"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/11_SOURCEABLE/seeds/FINAL_DE_NOVO_SIMILARITY_SEEDS.csv",
+      "bytes": 32986,
+      "sha256": "eea8b7617d35c06c27327e881118947f1de1eccb5d87209be23910b8980be736"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/build_candidate_universe.py",
+      "bytes": 14846,
+      "sha256": "e1a42bf634480f2d966901bad84d7d5e2052d1e95bee962bd42fe1ae864b9cca"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/build_reference_models.py",
+      "bytes": 10128,
+      "sha256": "52ab41e2ed9fc01041281c4a52577f5991a8ca343f06cef5c5bcaaf1c26a598b"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/check_reference_tautomers.py",
+      "bytes": 19766,
+      "sha256": "5e7faa559e7dddd5550ba76b2f15e5af8b5143f453dfb7ccc6f1205fa77c1642"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/diagnose_reference_ifp.py",
+      "bytes": 7324,
+      "sha256": "34ae18612132ae407b484d301b079194acf595fa5063efc24159c3d85ee24733"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/par2_denovo_cpu.py",
+      "bytes": 34655,
+      "sha256": "10f8e089d8163ed7c08db0983c105950987024398e22387efdab049e5735a60f"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/reference_interactions.py",
+      "bytes": 5752,
+      "sha256": "b0fd99413323b39ca1a21647b4de03483ae19fe8a14203e768c0bcfc590e572d"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/run_reference_redock.py",
+      "bytes": 4565,
+      "sha256": "142059a6d55494e5b64f1ceeff99e4aa11e6a0f220bc2e4e6d9d294d7028ca74"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_anchor_metrics.py",
+      "bytes": 36731,
+      "sha256": "aa57d3c6dec273358cd0cb8d3ad820b11c94ae7b073208b54203d11c46490a78"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_cluster_and_seed.py",
+      "bytes": 12938,
+      "sha256": "e418f7a23b11e907d59da55f8c8eb95d60ece948f5ee16dd866bc2a0ec859560"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_collect_scores.py",
+      "bytes": 8000,
+      "sha256": "418d884db11633b46f1dbfdedf8921472da92fc036fa572227162f6b2a997b4e"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_consensus_rank.py",
+      "bytes": 16105,
+      "sha256": "68a6f865a15e6a153da8b89d83f78ba5ff4e14b542b642d5d0562c3b9eddfa4d"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_ex32_report.py",
+      "bytes": 7396,
+      "sha256": "6a0c0403e6f8d70ab45043f66e1cb7e661dc6efc3eca3f138aabb02faf39f414"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_final_panel.py",
+      "bytes": 14514,
+      "sha256": "ec73be8f36a1239fa90b0bf6473cf98b348c909aa7ea0cec2778fd8ecfbe4ce5"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_final_report.py",
+      "bytes": 6770,
+      "sha256": "88456acfe073823fa9449a3464cf660e4efabeda473c05faf7e6e146bcbb4668"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_fix_receptor_protonation.py",
+      "bytes": 4937,
+      "sha256": "f486995ef67c363e3be60e3643c6d299f019cd6977af2aa8d8b751d55ad1af33"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_full_accounting.py",
+      "bytes": 30692,
+      "sha256": "d529b037557e5017591e638a7218801b782badef6117da987c7b71e6ec8f35f7"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_full_library_audit.py",
+      "bytes": 35233,
+      "sha256": "a4e0e24a2d3c69d7a7bded1e1c22a8d7084f07c5cabeca4a302909fe5c245a4d"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_interactions.py",
+      "bytes": 8867,
+      "sha256": "8abdd49f56f271dc9ed531db0c9e6614b70b97108a389c879acab1b80d4338d4"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_merge_evidence.py",
+      "bytes": 6240,
+      "sha256": "1aa42fdd4a592ed1abe9a6cb7dca6fe8b5ef4c9b3914519f5be055ecb1ce7f67"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_merge_universe.py",
+      "bytes": 5153,
+      "sha256": "3a798acdf3a3e6fd68ee46323d1d3b9f42603f5085dc71331073e860e5a0a7f9"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_pose_evidence.py",
+      "bytes": 5865,
+      "sha256": "dd94734ecfe95034740fc6fe3e0b26e843f01d541fecc3b4a3955c31cd897e46"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_postdock_rank.py",
+      "bytes": 13845,
+      "sha256": "cf76f066a26ec65c56441aeeef1a40d5ef0472a88062323c8f4f801291179352"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_preflight.py",
+      "bytes": 20155,
+      "sha256": "195165a9d431a019b6aaf38fc26c0b8536bf9db5f6a63a9e49d11f253934e331"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_prepare_ligands.py",
+      "bytes": 16209,
+      "sha256": "82f21ad196bafbe56faa53f90e88d85378c950fcb5143d66de5925f6e544a4e9"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_rank_and_select.py",
+      "bytes": 11241,
+      "sha256": "8b5aea71eb57150b9473dfdadb45200986380341f6c1c9432921a91561b5128e"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_reference_ifp_repair.py",
+      "bytes": 15637,
+      "sha256": "5a25c1cfce5e8b3105a68590b0950dca093059760626d54ab3540401538c650f"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_robust_anchors.py",
+      "bytes": 7859,
+      "sha256": "8574d156eae47492b69af850ef20e200546900e3cd0c3b809a7e320b84ea933c"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_select_ex32_diverse.py",
+      "bytes": 14366,
+      "sha256": "6daca4eec04b0a80bfb9d374f8e83ab84b6827c5fd09fb0dc3b95c537f1d7957"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_select_screen_set.py",
+      "bytes": 4459,
+      "sha256": "041cc58a45a85cd32e37e43c01aa36456c65c5fe69a61c82510c20c918cc9d7b"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_similarity_search.py",
+      "bytes": 12352,
+      "sha256": "10603248ea38ed30c72325a0f6c067e2d8408c4d58f92f85d1bd225309bc9de5"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_sourceability.py",
+      "bytes": 64844,
+      "sha256": "8fba5b1551e1b8a9596bf24da00194f65a818737620a331d863f002d30303b2c"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v2_stereo_audit.py",
+      "bytes": 27025,
+      "sha256": "9314cb3a8d6e4455f15f1447fd3c2e0d38563d4b7b0e113993219438e69c39d7"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v3_analyse_cofold.py",
+      "bytes": 9445,
+      "sha256": "370139597ee1541a8b06c1324d38387332e4f88205b983124bb6e67f6e7e9274"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v3_build_cofold_inputs.py",
+      "bytes": 4297,
+      "sha256": "e1070069f6564e6cbe04215bf842527bccbae9c18438a82bc33d71177136e255"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v3_final_sourceable_panel.py",
+      "bytes": 18197,
+      "sha256": "72e7bdf9a75e365b37b57bdf38e56550a6c4a1d99e4253623dc5bafc04dd1afd"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v3_freeze_denovo_seeds.py",
+      "bytes": 17426,
+      "sha256": "eee0efcf5b19ca360fef2f66394f5be8e8063baca4ba397bbb25653bda66fef2"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v3_prepare_finalists.py",
+      "bytes": 5599,
+      "sha256": "741a771ee21eedcb5ab9c7f87c128541e5110908cef9cc17238041480126685b"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v3_vendor_check.py",
+      "bytes": 7264,
+      "sha256": "6aefb699d482dbfee34ebe2e67d81f2a3b667bd61702e797f59a9604d8e71bc4"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/v3_write_final_panel_md.py",
+      "bytes": 5471,
+      "sha256": "d316a9420ea57e7a8e78b1ddfc5fac5f7ad22675b8ffa2c4e88ea5347de71ce9"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/validate_reference_redock.py",
+      "bytes": 14563,
+      "sha256": "c6275235d7df784d1691db92e819093e4bfc1a130b05956461c91a58d3597c38"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/verify_denovo_outputs.py",
+      "bytes": 24479,
+      "sha256": "61a5067142d515ef844235d8c6a718569b6f10c7e0155bc38ea0c99ff266bfb0"
+    },
+    {
+      "path": "YONSEI_FINAL10_V2/scripts/verify_reference_systems.py",
+      "bytes": 6626,
+      "sha256": "176a843a825f74f43d8287c2b7f72e08a9f763fa272c21d5c8a662d549e857c2"
+    },
+    {
+      "path": "docs/CANDIDATE_EVIDENCE.md",
+      "bytes": 13376,
+      "sha256": "00529c33a910c9dfbd2d9b1a5768653a6d394f8a283346dfe8e5d53b8777101d"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "bytes": 2103,
+      "sha256": "d02b111b1308c5eaaeebeef6b78ddd3a17eab83cbe51cab7396caaf1cd3f6d2d"
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "bytes": 2461,
+      "sha256": "985d8d3a35a65f1d484496f158f5270931b1e12b82efc60f15194593d60c8c8b"
+    },
+    {
+      "path": "docs/PANEL_RECONSTRUCTION.json",
+      "bytes": 257,
+      "sha256": "3e13a4c5bde2c70644fbcd5f5084b29b5117dbb4403bb4e6ad6ef0be673ec154"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 2814,
+      "sha256": "45e61816d79fc924f231656df99238764bba527d39c4487149f256f2ae3fe21d"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "bytes": 784,
+      "sha256": "b8c1b8d92eef8d75f7ebd1b51613e4979dba9d84a9c06253c8a67b0c38eef736"
+    },
+    {
+      "path": "results/earlier-2026-09-05/FINAL_PANEL_SUMMARY.json",
+      "bytes": 1281,
+      "sha256": "dd2d624aca8690f604cfebb06a399a09739eb12655151ba64b4058fd3d373899"
+    },
+    {
+      "path": "results/earlier-2026-09-05/FINAL_TOP20_DIVERSE_PAR2_CANDIDATES.csv",
+      "bytes": 15861,
+      "sha256": "2c3b1cb7e0304b4b383019de7c43fdd8699c6d802505f44a5499589919c9c695"
+    },
+    {
+      "path": "results/earlier-2026-09-05/FULL_LIBRARY_ACCOUNTING.summary.json",
+      "bytes": 1236,
+      "sha256": "e3f2d940c9d833ff47c6f0aa4fa11e5a4062a8d53c84d5b29668d64a6c72f034"
+    },
+    {
+      "path": "results/earlier-2026-09-05/IDEAL_DE_NOVO_TOP5.csv",
+      "bytes": 3125,
+      "sha256": "65edf63e8564e237094cb44f8b82e8fe19622d24ceb68b034766ef47c92d3670"
+    },
+    {
+      "path": "results/earlier-2026-09-05/STEREOCHEMISTRY_AUDIT.summary.json",
+      "bytes": 25322,
+      "sha256": "9f4a974ba084f8b1744738a09b92e16a3396089413dfd2edf0b017522652eab1"
+    },
+    {
+      "path": "results/sourceable-2026-09-06/FINAL_SOURCEABLE_PAR2_TOP20.csv",
+      "bytes": 30219,
+      "sha256": "f9848b1dba6b31daaa92b6e502396f22809b5c737f5713aa3b55d5cb655d049b"
+    },
+    {
+      "path": "results/sourceable-2026-09-06/PANEL_PROVENANCE.json",
+      "bytes": 1473,
+      "sha256": "2648f0abe67ddffd5f0745c84f5bf4ed4ae3d767f6d0b1b6e1d626502c8618a7"
+    },
+    {
+      "path": "scripts/verify_release.py",
+      "bytes": 625,
+      "sha256": "70d2f51194617731a5ef7d16ef1df598f57d8e8ef1ba4f035a64410674d7ee5c"
+    }
+  ]
+}

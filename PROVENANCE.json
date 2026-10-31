@@ -1,0 +1,12 @@
+{
+  "source_branch": "yonsei-final10-v2",
+  "source_commit": "eab0369a46cc7b220a7c66fb6a53f02c74568360",
+  "latest_panel": "results/sourceable-2026-09-06/FINAL_SOURCEABLE_PAR2_TOP20.csv",
+  "historical_panel": "results/earlier-2026-09-05/FINAL_TOP20_DIVERSE_PAR2_CANDIDATES.csv",
+  "notes": [
+    "Original CSV ordering and every scientific field preserved.",
+    "Bulk source libraries, private logs, remote orchestration and private correspondence excluded.",
+    "One machine-specific input path normalized in panel provenance.",
+    "The original entire Git history remains in the private preservation archive."
+  ]
+}
